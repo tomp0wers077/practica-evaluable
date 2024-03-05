@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: row;
+    font-family: Verdana, Geneva, Tahoma, sans-serif    ;
+}
+
+.discente{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 95%;
+}
+
+.acciones {
+    margin-left: auto;
+}
+
+.discente:hover{
+    border: 1px solid rgb(201, 201, 201);
+}
+
+button {
+    min-width: 80px;
+    max-width: 120px;
+    margin: 5px;
+}
+
+.borde {
+    border: 3px solid grey;
+    border-radius: 5px;
+}
+
+#contenido {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 15px;
+    width: 100%;
+}
+
+.texto {
+    margin: 5px;
+    width: 90%;
+    height: 30px;
+}
+
+section {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px; 
+    margin-right: 10px;
+}
+
+#contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

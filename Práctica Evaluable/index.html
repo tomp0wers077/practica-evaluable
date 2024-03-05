@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Práctica de recuperación de DAW Semi</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+    <section>
+       <div id="formulario">
+        <h2>Datos del discente.</h2>
+        <input
+          class="texto borde"
+          type="text"
+          id="nombre"
+          placeholder="Escriba aquí su nombre"
+        /><br />
+        <input
+          class="texto borde"
+          type="text"
+          id="apellidos"
+          placeholder="Escriba aquí sus apellidos"
+        /><br />
+        <input type="checkbox" id="permite" value="true" />
+        <label for="permite">Acepta que su imagen sea publicada.</label>
+      </div>
+      <aside>
+        <button class="borde" id="mostrar">Mostrar</button>
+        <button class="borde" id="guardar">Guardar</button>
+        <button class="borde" id="actualizar">Actualizar</button>
+        <button class="borde" id="limpiar">Limpiar formulario</button>
+      </aside>
+    </section>
+    <section id="listado">
+      <article class="discente">
+        <div>
+          <p class="nombre">Nombre y apellidos del discente</p>
+          <p class="acepta">Acepta/No acepta que su imagen sea publicada.</p>
+        </div>
+        <p class="acciones">
+          <button id="id_del_discente" class="mini borde editar">Editar</button>
+          <button id="id_del_discente" class="mini borde eliminar">
+            Eliminar
+          </button>
+        </p>
+      </article>
+    </section>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
